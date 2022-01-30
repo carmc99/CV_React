@@ -1,0 +1,147 @@
+{
+    "contact": {
+      "phone": "+57 322 6716544",
+      "email": "carmc99@gmail.com",
+      "location": "Medellin, Colombia"
+    },
+    "skills": [
+      {
+        "title": "General",
+        "type": "percent",
+        "subskills": [
+          {
+            "name": "Architecture",
+            "percent": 89
+          },
+          {
+            "name": "Mobile/Web App Development",
+            "percent": 95
+          },
+          {
+            "name": "Dev Ops",
+            "percent": 81
+          },
+          {
+            "name": "Backend Development",
+            "percent": 93
+          },
+          {
+            "name": "UX",
+            "percent": 80
+          }
+        ]
+      },
+      {
+        "title": "Lenguajes de programación",
+        "type": "percent",
+        "subskills": [
+          {
+            "name": "Javascript",
+            "percent": 86
+          },
+          {
+            "name": "Java",
+            "percent": 71
+          },
+          {
+            "name": "C#",
+            "percent": 95
+          },
+          {
+            "name": "Php",
+            "percent": 50
+          }
+        ]
+      },
+      {
+        "title": "Frameworks",
+        "type": "tag",
+        "subskills": [
+          {
+            "name": "Net core"
+          },
+          {
+            "name": "Laravel"
+          },
+          {
+            "name": "Vue"
+          },
+          {
+            "name": "Electron"
+          },
+          {
+            "name": "Node"
+          }
+        ]
+      },
+      {
+        "title": "Software",
+        "type": "tag",
+        "subskills": [
+          {
+            "name": "Docker"
+          },
+          {
+            "name": "Jira"
+          }
+        ]
+      },
+      {
+        "title": "Bases de datos",
+        "type": "tag",
+        "subskills": [
+          {
+            "name": "DynamoDb"
+          },
+          {
+            "name": "MySQL"
+          },
+          {
+            "name": "Oracle"
+          }
+        ]
+      }
+    ],
+    "summary": "Lorem ipsum dolor sit amet consectetur adipiscing elit parturient gravida, sociosqu aliquam senectus cum erat placerat sociis facilisis per praesent, et mus habitasse pellentesque suscipit ligula montes sagittis. Nostra purus laoreet nec inceptos aliquet morbi aptent imperdiet sollicitudin, consequat mattis nunc a euismod ante diam volutpat cursus eu, libero habitasse lacinia hac taciti litora cras quis. Feugiat sociis rutrum dui ultricies tellus malesuada ultrices velit, nam habitasse porttitor nascetur inceptos metus luctus netus tincidunt, fames at non praesent scelerisque mattis odio.",
+    "education": [
+      {
+        "institution": "Universidad de Antioquia",
+        "degree": "Ingenieria de sistemas",
+        "start": "2017",
+        "end": "actualidad"
+      }
+    ],
+    "experience": [
+      {
+        "role": "Full Stack Developer",
+        "company": "Lorem",
+        "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit parturient gravida, sociosqu aliquam senectus cum erat placerat sociis facilisis per praesent, et mus habitasse pellentesque suscipit ligula montes sagittis. Nostra purus laoreet nec inceptos aliquet morbi aptent imperdiet sollicitudin, consequat mattis nunc a euismod ante diam volutpat cursus eu, libero habitasse lacinia hac taciti litora cras quis. Feugiat sociis rutrum dui ultricies tellus malesuada ultrices velit, nam habitasse porttitor nascetur inceptos metus luctus netus tincidunt, fames at non praesent scelerisque mattis odio.",
+        "start": "01/2020",
+        "end": "01/2021"
+      },
+      {
+        "role": "Full Stack Developer",
+        "company": "Lorem",
+        "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit parturient gravida, sociosqu aliquam senectus cum erat placerat sociis facilisis per praesent, et mus habitasse pellentesque suscipit ligula montes sagittis. Nostra purus laoreet nec inceptos aliquet morbi aptent imperdiet sollicitudin, consequat mattis nunc a euismod ante diam volutpat cursus eu, libero habitasse lacinia hac taciti litora cras quis. Feugiat sociis rutrum dui ultricies tellus malesuada ultrices velit, nam habitasse porttitor nascetur inceptos metus luctus netus tincidunt, fames at non praesent scelerisque mattis odio.",
+        "start": "01/2020",
+        "end": "01/2021"
+      }
+    ],
+    "social": [
+      {
+        "service": "linkedin",
+        "url": "https://www.linkedin.com/in/carmc99/"
+      },
+      {
+        "service": "twitter",
+        "url": "https://twitter.com/carmc99"
+      },
+      {
+        "service": "github",
+        "url": "https://github.com/carmc99"
+      }
+    ],
+    "role": "Desarrollador",
+    "fullname": "Carlos Medina C"
+  }
+  
