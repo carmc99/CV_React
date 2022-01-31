@@ -3,7 +3,9 @@ import React from 'react';
 const Experience = ({ data }) => {
   return (
     <section>
-      <h1 className='section-header'>Experiencia</h1>
+      <h1 className='bg-sky-700 text-white font-bold text-center shadow-lg'>
+        Experiencia
+      </h1>
       {data &&
         data.map((item) => (
           <article className='my-5' key={`${item.company}`}>

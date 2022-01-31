@@ -108,17 +108,10 @@
         "institution": "Universidad de Antioquia",
         "degree": "Ingenieria de sistemas",
         "start": "2017",
-        "end": "actualidad"
+        "end": "Actualidad"
       }
     ],
     "experience": [
-      {
-        "role": "Full Stack Developer",
-        "company": "Lorem",
-        "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit parturient gravida, sociosqu aliquam senectus cum erat placerat sociis facilisis per praesent, et mus habitasse pellentesque suscipit ligula montes sagittis. Nostra purus laoreet nec inceptos aliquet morbi aptent imperdiet sollicitudin, consequat mattis nunc a euismod ante diam volutpat cursus eu, libero habitasse lacinia hac taciti litora cras quis. Feugiat sociis rutrum dui ultricies tellus malesuada ultrices velit, nam habitasse porttitor nascetur inceptos metus luctus netus tincidunt, fames at non praesent scelerisque mattis odio.",
-        "start": "01/2020",
-        "end": "01/2021"
-      },
       {
         "role": "Full Stack Developer",
         "company": "Lorem",
@@ -139,6 +132,29 @@
       {
         "service": "github",
         "url": "https://github.com/carmc99"
+      }
+    ],
+    "hobbies": [
+      {
+        "name": "Lectura"
+      },
+      {
+        "name": "Deporte"
+      },
+      {
+        "name": "Videojuegos"
+      },
+      {
+        "name": "Programación"
+      },
+      {
+        "name": "Música"
+      }
+    ],
+    "languages": [
+      {
+        "name": "Español",
+        "description": "Nativo"
       }
     ],
     "role": "Desarrollador",

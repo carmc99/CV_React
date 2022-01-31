@@ -9,7 +9,7 @@ const Footer = ({ social }) => (
       </span>
       <span className='inline-block mr-1'>by</span>
       <a
-        className='text-primary-500 hover:text-primary-700 font-bold'
+        className='text-sky-500 hover:text-sky-700 font-bold'
         rel='noopener noreferrer'
       >
         Carlos Medina

@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+
+.btn {
+    @apply text-xs font-bold py-1 px-2 rounded;
+}
+
+.contact-icon {
+    @apply fill-current w-4 h-4 mr-4;
+}
+
+.contact-link {
+    @apply text-sm;
+}
+
+.section-header {
+    @apply bg-sky-700 text-xl border-l-4 pl-3 font-bold;
+}
+
+.item-header {
+    @apply text-xl font-bold tracking-tight leading-relaxed text-neutral-700;
+}
+
+.item-sub {
+    @apply text-neutral-600 tracking-wide text-sm;
+}
+
+.tag {
+    @apply px-2 py-1 mr-2 mb-2 text-sm bg-sky-700 text-white inline-block capitalize font-light rounded;
+}
+
+.footer-social-link {
+    @apply mr-4;
+}
+
+.footer-social-link:hover {
+    @apply bg-sky-200 rounded-full;
+}
+
+.footer-social-icon {
+    @apply h-6 fill-current;
+}
+
+@tailwind utilities;

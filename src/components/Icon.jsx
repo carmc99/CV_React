@@ -6,23 +6,11 @@ import { ReactComponent as LinkedinIcon } from 'assets/linkedin.svg';
 const SocialIcon = ({ type }) => {
   switch (type) {
     case 'linkedin':
-      return (
-        <svg width='20%' height='20%'>
-          <LinkedinIcon className='footer-social-icon' />
-        </svg>
-      );
+      return <LinkedinIcon className='footer-social-icon' />;
     case 'twitter':
-      return (
-        <svg width='20%' height='20%'>
-          <TwitterIcon className='footer-social-icon' />
-        </svg>
-      );
+      return <TwitterIcon className='footer-social-icon' />;
     case 'github':
-      return (
-        <svg width='20%' height='20%'>
-          <GithubIcon className='footer-social-icon' />
-        </svg>
-      );
+      return <GithubIcon className='footer-social-icon' />;
     default:
       return null;
   }

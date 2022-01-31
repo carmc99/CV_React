@@ -7,10 +7,13 @@ import resume from 'data/profile';
 import Skills from 'components/Skills';
 import Education from 'components/Education';
 import List from 'components/List';
+import Hobbies from 'components/Hobbies';
+import Languages from 'components/Languages';
+import 'styles/main.css';
 
 const Home = () => (
-  <main className='antialiased text-neutral-900 bg-neutral-100 min-h-screen sm:p-5'>
-    <div className='container mx-auto shadow bg-white py-5 px-10'>
+  <main className='antialiased text-neutral-900 bg-gradient-to-r from-sky-500 to-sky-700 min-h-screen sm:p-5'>
+    <div className='container mx-auto shadow bg-white py-5 px-10 shadow-2xl'>
       <Header
         contacts={resume.contact}
         name={resume.fullname}
@@ -20,6 +23,10 @@ const Home = () => (
       <div className='border-b border-neutral-300 pb-2 my-5 lg:flex'>
         <div className='lg:w-2/3 lg:pr-8'>
           {resume.experience && <Experience data={resume.experience} />}
+          <div className='lg:flex'>
+            {resume.hobbies && <Hobbies data={resume.hobbies} />}
+            {resume.languages && <Languages data={resume.languages} />}
+          </div>
         </div>
         <div className='lg:w-1/3 lg:pl-8 lg:border-l lg:border-neutral-300 '>
           {resume.skills && <Skills data={resume.skills} />}
