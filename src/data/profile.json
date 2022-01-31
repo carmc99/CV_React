@@ -2,7 +2,7 @@
     "contact": {
       "phone": "+57 322 6716544",
       "email": "carmc99@gmail.com",
-      "location": "Medellin, Colombia"
+      "location": "Medellín, Colombia"
     },
     "skills": [
       {
@@ -49,7 +49,7 @@
           },
           {
             "name": "Php",
-            "percent": 50
+            "percent": 47
           }
         ]
       },
@@ -83,6 +83,9 @@
           },
           {
             "name": "Jira"
+          },
+          {
+            "name": "Git"
           }
         ]
       },
@@ -102,22 +105,29 @@
         ]
       }
     ],
-    "summary": "Lorem ipsum dolor sit amet consectetur adipiscing elit parturient gravida, sociosqu aliquam senectus cum erat placerat sociis facilisis per praesent, et mus habitasse pellentesque suscipit ligula montes sagittis. Nostra purus laoreet nec inceptos aliquet morbi aptent imperdiet sollicitudin, consequat mattis nunc a euismod ante diam volutpat cursus eu, libero habitasse lacinia hac taciti litora cras quis. Feugiat sociis rutrum dui ultricies tellus malesuada ultrices velit, nam habitasse porttitor nascetur inceptos metus luctus netus tincidunt, fames at non praesent scelerisque mattis odio.",
+    "summary": "Soy alguien responsable, apasionado por las tecnologías de la información y en gran medida a la programación, poseo una gran capacidad de aprendizaje, me considero una persona autodidacta y minuciosa a la cual le gusta dejar un sello de calidad en cada uno de sus proyectos, diseñando y construyendo soluciones escalables que se ajusten a los procesos internos de la organización, por lo que me entusiasma poder ser parte de un equipo en el cual todos tengamos objetivos en común.",
     "education": [
       {
         "institution": "Universidad de Antioquia",
-        "degree": "Ingenieria de sistemas",
+        "degree": "Ingeniería de sistemas",
         "start": "2017",
         "end": "Actualidad"
       }
     ],
     "experience": [
       {
-        "role": "Full Stack Developer",
-        "company": "Lorem",
-        "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit parturient gravida, sociosqu aliquam senectus cum erat placerat sociis facilisis per praesent, et mus habitasse pellentesque suscipit ligula montes sagittis. Nostra purus laoreet nec inceptos aliquet morbi aptent imperdiet sollicitudin, consequat mattis nunc a euismod ante diam volutpat cursus eu, libero habitasse lacinia hac taciti litora cras quis. Feugiat sociis rutrum dui ultricies tellus malesuada ultrices velit, nam habitasse porttitor nascetur inceptos metus luctus netus tincidunt, fames at non praesent scelerisque mattis odio.",
-        "start": "01/2020",
-        "end": "01/2021"
+        "role": "Desarrollador",
+        "company": "Konecta, Medellín, Antioquia",
+        "description": "Desarrollar soluciones de software conforme a los requerimientos de la empresa. Garantizar la entrega de una solución de software que cumpla con los estándares de calidad y seguridad. Diseño de la arquitectura de los sistemas.",
+        "start": "06/2020",
+        "end": "Actualidad"
+      },
+      {
+        "role": "Helpdesk",
+        "company": "Konecta, Medellín, Antioquia",
+        "description": "Brindar soporte final a usuarios. Realizar despliegues masivos de aplicaciones en la compañía utilizando lenguajes de scripting como Powershell, VBA, Batch. Realizar validaciones de conectividad, interviniendo desde la capa física hasta la capa de aplicaciones en la red de la compañía. Manejo de máquinas virtuales Vmware, VirtualBox.",
+        "start": "01/2019",
+        "end": "06/2020"
       }
     ],
     "social": [
@@ -155,6 +165,20 @@
       {
         "name": "Español",
         "description": "Nativo"
+      }
+    ],
+    "courses": [
+      {
+        "name": ".Net core fundamentals",
+        "description": "Udemy"
+      },
+      {
+        "name": ".Net core web Apis Restful",
+        "description": "Udemy"
+      },
+      {
+        "name": "Design patterns in C# and .Net",
+        "description": "Udemy"
       }
     ],
     "role": "Desarrollador",

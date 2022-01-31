@@ -9,11 +9,12 @@ import Education from 'components/Education';
 import List from 'components/List';
 import Hobbies from 'components/Hobbies';
 import Languages from 'components/Languages';
+import Courses from 'components/Courses';
 import 'styles/main.css';
 
 const Home = () => (
   <main className='antialiased text-neutral-900 bg-gradient-to-r from-sky-500 to-sky-700 min-h-screen sm:p-5'>
-    <div className='container mx-auto shadow bg-white py-5 px-10 shadow-2xl'>
+    <div className='container mx-auto shadow bg-indigo-50 py-5 px-10 shadow-2xl xl:w-auto'>
       <Header
         contacts={resume.contact}
         name={resume.fullname}
@@ -25,6 +26,7 @@ const Home = () => (
           {resume.experience && <Experience data={resume.experience} />}
           <div className='lg:flex'>
             {resume.hobbies && <Hobbies data={resume.hobbies} />}
+            {resume.courses && <Courses data={resume.courses} />}
             {resume.languages && <Languages data={resume.languages} />}
           </div>
         </div>
