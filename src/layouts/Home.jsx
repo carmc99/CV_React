@@ -13,8 +13,8 @@ import Courses from 'components/Courses';
 import 'styles/main.css';
 
 const Home = () => (
-  <main className='antialiased text-neutral-900 bg-gradient-to-r from-sky-500 to-sky-700 '>
-    <div className='mx-auto shadow bg-indigo-50 py-5 px-10  xl:w-auto'>
+  <main className='antialiased text-neutral-900 bg-gradient-to-r from-sky-500 to-sky-700 min-h-screen sm:p-5'>
+    <div className='container  mx-auto shadow bg-indigo-50 py-5 px-10  xl:w-auto'>
       <Header
         contacts={resume.contact}
         name={resume.fullname}
