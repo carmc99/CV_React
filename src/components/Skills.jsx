@@ -6,7 +6,7 @@ const Skills = ({ data }) => {
   console.log(data);
   return (
     <section>
-      <h1 className='bg-sky-700 text-white font-bold text-center shadow-lg'>
+      <h1 className='bg-sky-700 text-white font-bold text-center '>
         Habilidades
       </h1>
       {data.map((skill) => (

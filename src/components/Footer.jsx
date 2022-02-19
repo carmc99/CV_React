@@ -18,16 +18,19 @@ const Footer = ({ social }) => (
     {social && (
       <div className='flex items-center justify-center ml-2'>
         {social.map((item) => (
-          <a
-            key={item.service}
-            className='footer-social-link'
-            href={item.url}
-            target='_blank'
-            rel='noopener noreferrer'
-            title={item.service}
-          >
-            <SocialIcon type={item.service} />
-          </a>
+          <div>
+            <a
+              key={item.service}
+              className='footer-social-link'
+              href={item.url}
+              target='_blank'
+              rel='noopener noreferrer'
+              title={item.service}
+            >
+              <SocialIcon type={item.service} />
+            </a>
+            <span className='pr-5'>{item.description}</span>
+          </div>
         ))}
       </div>
     )}

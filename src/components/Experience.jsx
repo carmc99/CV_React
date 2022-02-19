@@ -3,7 +3,7 @@ import React from 'react';
 const Experience = ({ data }) => {
   return (
     <section>
-      <h1 className='bg-sky-700 text-white font-bold text-center shadow-lg'>
+      <h1 className='bg-sky-700 text-white font-bold text-center '>
         Experiencia
       </h1>
       {data &&
@@ -13,7 +13,8 @@ const Experience = ({ data }) => {
             <h3 className='item-sub'>
               {item.company} | {item.start} - {item.end || 'PRESENT'}
             </h3>
-            <p className='py-6'>{item.description}</p>
+            {item.description &&
+              item.description.map((des) => <p className='py-0'>- {des}</p>)}
           </article>
         ))}
     </section>

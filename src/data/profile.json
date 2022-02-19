@@ -1,187 +1,192 @@
 {
-    "contact": {
-      "phone": "+57 322 6716544",
-      "email": "carmc99@gmail.com",
-      "location": "Medellín, Colombia"
+  "contact": {
+    "phone": "+57 322 6716544",
+    "email": "carmc99@gmail.com",
+    "location": "Medellín, Colombia"
+  },
+  "skills": [{
+      "title": "General",
+      "type": "percent",
+      "subskills": [{
+          "name": "Architecture",
+          "percent": 89
+        },
+        {
+          "name": "Web Development",
+          "percent": 95
+        },
+        {
+          "name": "Dev Ops",
+          "percent": 71
+        },
+        {
+          "name": "Backend Development",
+          "percent": 93
+        },
+        {
+          "name": "UX",
+          "percent": 80
+        }
+      ]
     },
-    "skills": [
-      {
-        "title": "General",
-        "type": "percent",
-        "subskills": [
-          {
-            "name": "Architecture",
-            "percent": 89
-          },
-          {
-            "name": "Mobile/Web App Development",
-            "percent": 95
-          },
-          {
-            "name": "Dev Ops",
-            "percent": 81
-          },
-          {
-            "name": "Backend Development",
-            "percent": 93
-          },
-          {
-            "name": "UX",
-            "percent": 80
-          }
-        ]
-      },
-      {
-        "title": "Lenguajes de programación",
-        "type": "percent",
-        "subskills": [
-          {
-            "name": "Javascript",
-            "percent": 86
-          },
-          {
-            "name": "Java",
-            "percent": 71
-          },
-          {
-            "name": "C#",
-            "percent": 95
-          },
-          {
-            "name": "Php",
-            "percent": 47
-          }
-        ]
-      },
-      {
-        "title": "Frameworks",
-        "type": "tag",
-        "subskills": [
-          {
-            "name": "Net core"
-          },
-          {
-            "name": "Laravel"
-          },
-          {
-            "name": "Vue"
-          },
-          {
-            "name": "Electron"
-          },
-          {
-            "name": "Node"
-          }
-        ]
-      },
-      {
-        "title": "Software",
-        "type": "tag",
-        "subskills": [
-          {
-            "name": "Docker"
-          },
-          {
-            "name": "Jira"
-          },
-          {
-            "name": "Git"
-          }
-        ]
-      },
-      {
-        "title": "Bases de datos",
-        "type": "tag",
-        "subskills": [
-          {
-            "name": "DynamoDb"
-          },
-          {
-            "name": "MySQL"
-          },
-          {
-            "name": "Oracle"
-          }
-        ]
-      }
-    ],
-    "summary": "Soy alguien responsable, apasionado por las tecnologías de la información y en gran medida a la programación, poseo una gran capacidad de aprendizaje, me considero una persona autodidacta y minuciosa a la cual le gusta dejar un sello de calidad en cada uno de sus proyectos, diseñando y construyendo soluciones escalables que se ajusten a los procesos internos de la organización, por lo que me entusiasma poder ser parte de un equipo en el cual todos tengamos objetivos en común.",
-    "education": [
-      {
-        "institution": "Universidad de Antioquia",
-        "degree": "Ingeniería de sistemas",
-        "start": "2017",
-        "end": "Actualidad"
-      }
-    ],
-    "experience": [
-      {
-        "role": "Desarrollador",
-        "company": "Konecta, Medellín, Antioquia",
-        "description": "Desarrollar soluciones de software conforme a los requerimientos de la empresa. Garantizar la entrega de una solución de software que cumpla con los estándares de calidad y seguridad. Diseño de la arquitectura de los sistemas.",
-        "start": "06/2020",
-        "end": "Actualidad"
-      },
-      {
-        "role": "Helpdesk",
-        "company": "Konecta, Medellín, Antioquia",
-        "description": "Brindar soporte final a usuarios. Realizar despliegues masivos de aplicaciones en la compañía utilizando lenguajes de scripting como Powershell, VBA, Batch. Realizar validaciones de conectividad, interviniendo desde la capa física hasta la capa de aplicaciones en la red de la compañía. Manejo de máquinas virtuales Vmware, VirtualBox.",
-        "start": "01/2019",
-        "end": "06/2020"
-      }
-    ],
-    "social": [
-      {
-        "service": "linkedin",
-        "url": "https://www.linkedin.com/in/carmc99/"
-      },
-      {
-        "service": "twitter",
-        "url": "https://twitter.com/carmc99"
-      },
-      {
-        "service": "github",
-        "url": "https://github.com/carmc99"
-      }
-    ],
-    "hobbies": [
-      {
-        "name": "Lectura"
-      },
-      {
-        "name": "Deporte"
-      },
-      {
-        "name": "Videojuegos"
-      },
-      {
-        "name": "Programación"
-      },
-      {
-        "name": "Música"
-      }
-    ],
-    "languages": [
-      {
-        "name": "Español",
-        "description": "Nativo"
-      }
-    ],
-    "courses": [
-      {
-        "name": ".Net core fundamentals",
-        "description": "Udemy"
-      },
-      {
-        "name": ".Net core web Apis Restful",
-        "description": "Udemy"
-      },
-      {
-        "name": "Design patterns in C# and .Net",
-        "description": "Udemy"
-      }
-    ],
-    "role": "Desarrollador",
-    "fullname": "Carlos Medina C"
-  }
-  
+    {
+      "title": "Lenguajes de programación",
+      "type": "percent",
+      "subskills": [{
+          "name": "Javascript",
+          "percent": 86
+        },
+        {
+          "name": "Java",
+          "percent": 71
+        },
+        {
+          "name": "C#",
+          "percent": 95
+        },
+        {
+          "name": "Php",
+          "percent": 43
+        }
+      ]
+    },
+    {
+      "title": "Frameworks",
+      "type": "tag",
+      "subskills": [{
+          "name": "Net core"
+        },
+        {
+          "name": "Laravel"
+        },
+        {
+          "name": "Vue"
+        },
+        {
+          "name": "Electron"
+        },
+        {
+          "name": "Node"
+        }
+      ]
+    },
+    {
+      "title": "Software",
+      "type": "tag",
+      "subskills": [{
+          "name": "Docker"
+        },
+        {
+          "name": "Jira"
+        },
+        {
+          "name": "Git"
+        }
+      ]
+    },
+    {
+      "title": "Bases de datos",
+      "type": "tag",
+      "subskills": [{
+          "name": "DynamoDb"
+        },
+        {
+          "name": "MySQL"
+        },
+        {
+          "name": "Oracle"
+        }
+      ]
+    }
+  ],
+  "summary": "Soy alguien responsable, apasionado por las tecnologías de la información y en gran medida a la programación, poseo una gran capacidad de aprendizaje, me considero una persona autodidacta y minuciosa a la cual le gusta dejar un sello de calidad en cada uno de sus proyectos, diseñando y construyendo soluciones escalables que se ajusten a los procesos internos de la organización, por lo que me entusiasma poder ser parte de un equipo en el cual todos tengamos objetivos en común.",
+  "education": [{
+    "institution": "Universidad de Antioquia",
+    "degree": "Ingeniería de sistemas",
+    "start": "2017",
+    "end": "Actualidad"
+  }],
+  "experience": [{
+      "role": "Desarrollador",
+      "company": "Konecta, Medellín, Antioquia",
+      "description": [
+        "Desarrollar soluciones de software conforme a los requerimientos de la empresa",
+        "Garantizar la entrega de una solución de software que cumpla con los estándares de calidad y seguridad",
+        "Diseño de la arquitectura de los sistemas.",
+        "Crear e implementar componentes en VueJs.",
+        "Crear y actualizar servicios REST de backend en .Net Core.",
+        "Implementar la gestión de estado y la lógica empresarial desde el frontend a el backend."
+      ],
+      "start": "06/2020",
+      "end": "Actualidad"
+    },
+    {
+      "role": "Helpdesk",
+      "company": "Konecta, Medellín, Antioquia",
+      "description": [
+        "Brindar soporte final a usuarios",
+        "Realizar despliegues masivos de aplicaciones en la compañía utilizando lenguajes de scripting como Powershell, VBA, Batch",
+        "Realizar validaciones de conectividad, interviniendo desde la capa física hasta la capa de aplicaciones en la red de la compañía",
+        "Manejo de máquinas virtuales Vmware, VirtualBox."
+      ],
+      "start": "01/2019",
+      "end": "06/2020"
+    }
+  ],
+  "social": [{
+      "service": "linkedin",
+      "description": "@carmc99",
+      "url": "https://www.linkedin.com/in/carmc99/"
+    },
+    {
+      "service": "twitter",
+      "description": "@carmc99",
+      "url": "https://twitter.com/carmc99"
+    },
+    {
+      "service": "github",
+      "description": "@carmc99",
+      "url": "https://github.com/carmc99"
+    }
+  ],
+  "hobbies": [{
+      "name": "Lectura"
+    },
+    {
+      "name": "Deporte"
+    },
+    {
+      "name": "Videojuegos"
+    },
+    {
+      "name": "Programación"
+    },
+    {
+      "name": "Música"
+    }
+  ],
+  "languages": [{
+      "name": "Español",
+      "description": "Nativo"
+    },
+    {
+      "name": "Inglés",
+      "description": "Intermedio"
+    }
+  ],
+  "courses": [{
+      "name": ".Net core fundamentals",
+      "description": "Udemy"
+    },
+    {
+      "name": ".Net core web Apis Restful",
+      "description": "Udemy"
+    },
+    {
+      "name": "Design patterns in C# and .Net",
+      "description": "Udemy"
+    }
+  ],
+  "role": "Desarrollador",
+  "fullname": "Carlos Medina C"
+}
